@@ -1,0 +1,39 @@
+- Passenger can register in the system if he does not have an account. 
+- You can login as Employee or Passenger.
+- If you are a driver or a manager you can login as employee and you will be navigated to your profile.
+- Passengers can:
+1. View all the available trips in the system, and he can specify if he wants to choose from round trips, one-way trips or all of them.
+2. Book a trip from the list of available trips
+3. View their booked trips in addition to number of tickets they bought.
+4. Cancel a trip that he booked before.
+5. A passenger can change information of his account.
+6. Report a problem to a manager.
+7. Save changes.
+- Drivers can:
+1. View trips that are assigned to them by the manager.
+2. Report a problem to a manager.
+-Managers can:
+1- View all trips in the system.
+2- Delete any trip, and it will be deleted in customers and driver's profiles.
+3- Create a trip and assign it to a driver.
+4- View complaints that are sent to them by customers and drivers.
+5- Save changes.
+
+
+Name: Tarek Mohamed Hany	ID: 5344
+- Complaints system.
+- Viewing trips.
+- Booking/Cancelling trips.
+- Creating trips and assigning to drivers.
+- Pop-up error windows.
+- View booked trips.
+
+Name: Youssef Hussein		ID: 5659
+- Change info.
+- Register.
+- View trips by type.
+- Save.
+
+And other features/algorithms are made by mixed efforts.
+
+Jar file can be found in src\sample folder.

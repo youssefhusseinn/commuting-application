@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+    <children>
+        <Pane layoutX="154.0" layoutY="-27.0" prefHeight="339.0" prefWidth="286.0">
+            <children>
+                <Button layoutX="131.0" layoutY="241.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="37.0" prefWidth="65.0" text="Login" />
+                <Button fx:id="registerButton" layoutX="131.0" layoutY="292.0" mnemonicParsing="false" onAction="#registerButtonClicked" prefHeight="37.0" prefWidth="65.0" text="Register" />
+                <PasswordField fx:id="passwordField" layoutX="47.0" layoutY="188.0" promptText="Password" />
+                <TextField fx:id="userNameField" accessibleText="userNameField" layoutX="47.0" layoutY="158.0" promptText="User Name" />
+                <RadioButton fx:id="passengerRadioButton" layoutX="47.0" layoutY="225.0" mnemonicParsing="false" text="Passenger">
+               <toggleGroup>
+                  <ToggleGroup fx:id="user" />
+               </toggleGroup></RadioButton>
+                <RadioButton fx:id="employeeRadioButton" layoutX="47.0" layoutY="242.0" mnemonicParsing="false" text="Employee" toggleGroup="$user" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
